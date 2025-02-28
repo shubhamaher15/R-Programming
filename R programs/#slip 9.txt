@@ -1,0 +1,17 @@
+ #slip 9
+> x=c('a','b','c','a','b')
+> print("original vector is ")
+[1] "original vector is "
+> print(x)
+[1] "a" "b" "c" "a" "b"
+> f=factor(x)
+> print("factor is")
+[1] "factor is"
+> print(f)
+[1] a b c a b
+Levels: a b c
+> levels(f)[1]="e"
+> print(f)
+[1] e b c e b
+Levels: e b c
+> 

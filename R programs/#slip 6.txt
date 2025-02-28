@@ -1,0 +1,8 @@
+#slip 6
+> 
+> sub=c("java","dsa","php","big data","r")
+>  marks=c(55,41,48,39,51)
+>print(sub)
+>print(marks)
+> barplot(marks,main="marks of 5 sub", xlab="marks",ylab="sub",col="black")
+> 

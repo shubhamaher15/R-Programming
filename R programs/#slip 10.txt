@@ -1,0 +1,74 @@
+#slip 10
+> a=list("shrirampur","wakadii","rahata","shridiii")
+> print(a)
+[[1]]
+[1] "shrirampur"
+
+[[2]]
+[1] "wakadii"
+
+[[3]]
+[1] "rahata"
+
+[[4]]
+[1] "shridiii"
+>  names(a)<-c("eductional","khandoba devstan","machines factory","saibaba")
+> print(a)
+$eductional
+[1] "shrirampur"
+
+$`khandoba devstan`
+[1] "wakadii"
+
+$`machines factory`
+[1] "rahata"
+
+$saibaba
+[1] "shridiii"
+
+> a[5]="kopargoan"
+> print(a)
+$eductional
+[1] "shrirampur"
+
+$`khandoba devstan`
+[1] "wakadii"
+
+$`machines factory`
+[1] "rahata"
+
+$saibaba
+[1] "shridiii"
+
+[[5]]
+[1] "kopargoan"
+
+> a[5]=NULL
+> print(a)
+$eductional
+[1] "shrirampur"
+
+$`khandoba devstan`
+[1] "wakadii"
+
+$`machines factory`
+[1] "rahata"
+
+$saibaba
+[1] "shridiii"
+
+> a[3]="saiii baba shridiii"
+> print(a)
+$eductional
+[1] "shrirampur"
+
+$`khandoba devstan`
+[1] "wakadii"
+
+$`machines factory`
+[1] "saiii baba shridiii"
+
+$saibaba
+[1] "shridiii"
+
+> 

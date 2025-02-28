@@ -1,0 +1,15 @@
+ #slip 5
+> nums3=c(10,20,30)
+> print("sum is")
+[1] "sum is"
+> print(sum(nums3))
+[1] 60
+> print("mean is")
+[1] "mean is"
+> print(mean(nums3))
+[1] 20
+> print("product is")
+[1] "product is"
+>  print(prod(nums3))
+[1] 6000
+> 

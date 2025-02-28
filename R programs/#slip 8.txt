@@ -1,0 +1,33 @@
+#slip 8
+> x=c(1,2,3,4)
+> y=c(5,6,4,4)
+> print("original vector is :")
+[1] "original vector is :"
+> print(x)
+[1] 1 2 3 4
+> print(y)
+[1] 5 6 4 4
+> xy=data.frame(x,y)
+> print("data frame is :")
+[1] "data frame is :"
+> print(xy)
+  x y
+1 1 5
+2 2 6
+3 3 4
+4 4 4
+> print("duplicate value in data frame")
+[1] "duplicate value in data frame"
+> print(duplicated(xy))  //1
+[1] FALSE FALSE FALSE FALSE
+> print(duplicated(x,y))   //2   1st jari kel tri same as=nswer yet ahe.........
+[1] FALSE FALSE FALSE FALSE
+> print("unique eows in data frame")
+[1] "unique eows in data frame"
+> print(unique(xy))
+  x y
+1 1 5
+2 2 6
+3 3 4
+4 4 4
+> 

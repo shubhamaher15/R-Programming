@@ -1,0 +1,14 @@
+ #slip 14............
+> a=c(1,2,3)
+> b=c(4,5,6)
+> d=c(7,8,9)
+> combine<-cbind(a,b,d)
+> 
+> print("content of matrix")
+[1] "content of matrix"
+> print(combine)
+     a b d
+[1,] 1 4 7
+[2,] 2 5 8
+[3,] 3 6 9
+> 

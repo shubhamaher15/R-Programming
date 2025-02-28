@@ -1,0 +1,21 @@
+ df1=data.frame(
++  emp_name=c("jay","shree","ram"),
++ emp_code=c(1,2,3),
++ emp_salary=c(5000,3641,2589),
++  emp_desi=c("bca","mca","bca")
++ )
+> print("original data frame")
+[1] "original data frame"
+> print(df1)
+  emp_name emp_code emp_salary emp_desi
+1      jay        1       5000      bca
+2    shree        2       3641      mca
+3      ram        3       2589      bca
+> print("ascendng order")
+[1] "ascendng order"
+>  print(df1[order(df1$emp_code),])
+  emp_name emp_code emp_salary emp_desi
+1      jay        1       5000      bca
+2    shree        2       3641      mca
+3      ram        3       2589      bca
+> 

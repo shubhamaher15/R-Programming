@@ -1,0 +1,19 @@
+ #slip 13
+> dtb<-function(n)
++ {
++    if(n>1)
++    {
++      dtb(as.integer(n/2))
++    }
++     cat(n%%2)
++ }
+> dec=10
+> print("decimal is")
+[1] "decimal is"
+> print(dec)
+[1] 10
+> print("decimal to binary...")
+[1] "decimal to binary..."
+> bin=dtb(dec)
+1010> print(bin)
+NULL
